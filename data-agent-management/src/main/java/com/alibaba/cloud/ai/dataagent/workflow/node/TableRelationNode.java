@@ -63,13 +63,11 @@ import org.springframework.stereotype.Component;
 import reactor.core.publisher.Flux;
 
 /**
- * Table relationship inference node that automatically completes complex structures like
- * JOINs and foreign keys.
+ * 表关系推断节点，自动补全 JOIN 和外键等复杂结构。
  *
  * <p>
- * This node is responsible for: - Inferring relationships between tables and fields -
- * Building initial schema from documents - Processing schema selection based on input and
- * evidence - Handling schema advice for missing information
+ * 该节点负责： - 推断表和字段之间的关系 - 从文档构建初始 Schema - 根据输入和证据信息处理
+ * Schema 选择 - 处理缺失信息的 Schema 补充建议
  *
  * @author zhangshenghang
  */

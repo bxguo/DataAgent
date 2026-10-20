@@ -42,11 +42,13 @@ import static com.alibaba.cloud.ai.dataagent.util.PlanProcessUtil.getCurrentExec
 import static com.alibaba.cloud.ai.dataagent.prompt.PromptHelper.buildMixMacSqlDbPrompt;
 
 /**
- * Semantic consistency validation node that checks SQL query semantic consistency.
+ * 语义一致性校验节点，用于检查 SQL 查询的语义一致性。
  *
- * This node is responsible for: - Validating SQL query semantic consistency against
- * schema and evidence - Providing validation results for query refinement - Handling
- * validation failures with recommendations - Managing step progression in execution plan
+ * 该节点负责以下职责：
+ * - 根据数据库 Schema 和证据（Evidence）校验 SQL 查询的语义一致性
+ * - 为查询优化提供校验结果
+ * - 处理校验失败场景并给出改进建议
+ * - 管理执行计划中的步骤推进
  *
  * @author zhangshenghang
  */

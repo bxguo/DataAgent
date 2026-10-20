@@ -45,6 +45,11 @@ import java.util.Map;
 
 import static com.alibaba.cloud.ai.dataagent.constant.Constant.*;
 
+/**
+ * Evidence Recall Node
+ * <p>
+ * 资源证据召回节点
+ */
 @Slf4j
 @Component
 @AllArgsConstructor

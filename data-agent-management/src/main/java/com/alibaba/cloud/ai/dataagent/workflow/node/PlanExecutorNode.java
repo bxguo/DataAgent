@@ -33,8 +33,7 @@ import java.util.Set;
 import static com.alibaba.cloud.ai.dataagent.constant.Constant.*;
 
 /**
- * Plan execution and validation node, decides next execution node based on plan, and
- * validates before execution.
+ * 计划执行与校验节点，根据计划决定下一个执行节点，并在执行前进行校验。
  *
  * @author zhangshenghang
  */

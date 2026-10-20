@@ -45,12 +45,13 @@ import static com.alibaba.cloud.ai.dataagent.constant.Constant.*;
 import static com.alibaba.cloud.ai.dataagent.util.PlanProcessUtil.getCurrentExecutionStepInstruction;
 
 /**
- * Enhanced SQL generation node that handles SQL query regeneration with advanced
- * optimization features. This node is responsible for: - Multi-round SQL optimization and
- * refinement - Syntax validation and security analysis - Performance optimization and
- * intelligent caching - Handling execution exceptions and semantic consistency failures -
- * Managing retry logic with schema advice - Providing streaming feedback during
- * regeneration process
+ * 增强型SQL生成节点，负责处理带有高级优化功能的SQL查询重新生成。该节点主要职责包括：
+ * - 多轮SQL优化与精炼
+ * - 语法校验与安全分析
+ * - 性能优化与智能缓存
+ * - 处理执行异常与语义一致性校验失败
+ * - 结合Schema建议管理重试逻辑
+ * - 在SQL重新生成过程中提供流式反馈
  *
  * @author zhangshenghang
  */

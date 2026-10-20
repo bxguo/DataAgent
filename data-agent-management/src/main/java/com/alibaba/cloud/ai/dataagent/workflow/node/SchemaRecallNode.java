@@ -40,12 +40,13 @@ import java.util.Map;
 import static com.alibaba.cloud.ai.dataagent.constant.Constant.*;
 
 /**
- * Schema recall node that retrieves relevant database schema information based on
- * keywords and intent.
+ * Schema 召回节点，根据关键词和意图检索相关的数据库 Schema 信息。
  *
- * This node is responsible for: - Recalling relevant tables based on user input -
- * Retrieving column documents based on extracted keywords - Organizing schema information
- * for subsequent processing - Providing streaming feedback during recall process
+ * 该节点负责：
+ * - 根据用户输入召回相关的表
+ * - 根据提取的关键词检索列文档
+ * - 组织 Schema 信息以供后续处理
+ * - 在召回过程中提供流式反馈
  *
  * @author zhangshenghang
  */

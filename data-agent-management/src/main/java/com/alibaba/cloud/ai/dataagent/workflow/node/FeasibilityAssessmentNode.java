@@ -37,7 +37,10 @@ import java.util.HashMap;
 
 import static com.alibaba.cloud.ai.dataagent.constant.Constant.*;
 
-// 可行性评估节点，看需求是 数据分析/需要澄清 或者最终确认为自由闲聊
+
+/**
+ * 可行性评估节点，判断需求是 数据分析/需要澄清 还是最终确认为自由闲聊
+ */
 @Slf4j
 @Component
 @AllArgsConstructor

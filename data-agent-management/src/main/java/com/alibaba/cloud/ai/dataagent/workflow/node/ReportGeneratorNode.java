@@ -43,12 +43,10 @@ import java.util.Map;
 import static com.alibaba.cloud.ai.dataagent.constant.Constant.*;
 
 /**
- * Report generation node that creates comprehensive analysis reports based on execution
- * results.
+ * 报告生成节点，基于执行结果创建全面的分析报告。
  *
- * This node is responsible for: - Generating detailed analysis reports from SQL execution
- * results - Summarizing data insights and findings - Providing comprehensive answers to
- * user queries - Creating structured final output for users
+ * 该节点负责： - 根据 SQL 执行结果生成详细的分析报告 - 总结数据洞察与发现 -
+ * 为用户查询提供全面的回答 - 为用户创建结构化的最终输出
  *
  * @author zhangshenghang
  */

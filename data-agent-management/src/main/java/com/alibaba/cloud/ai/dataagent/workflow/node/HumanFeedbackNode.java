@@ -28,8 +28,7 @@ import java.util.Map;
 import static com.alibaba.cloud.ai.dataagent.constant.Constant.*;
 
 /**
- * Human feedback node for plan review and modification.
- *
+ * 人工反馈节点，用于计划审查和修改。
  * @author Makoto
  */
 @Slf4j
